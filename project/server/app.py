@@ -8,7 +8,7 @@ def index():
    return render_template('app.html')
 
 
-@app.route('/get_location_names', methods=['POST','GET'])
+@app.route('/get_location_names', methods=['GET'])
 def get_location_name():
     response = jsonify({
         'location':util.get_location_names()
