@@ -57,6 +57,7 @@ function onPageLoad() {
               var opt = new Option(locations[i]);
               $('#uiLocations').append(opt);
           }
+        console.log("get_location_names loaded sucessfully");
       }
   });
 }
