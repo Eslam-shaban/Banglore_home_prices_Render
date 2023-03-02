@@ -13,7 +13,7 @@ def get_location_name():
     response = jsonify({
         'location':util.get_location_names()
     })
-    response.headers.add('Access-Control-Allow-Origin','*')
+    #response.headers.add('Access-Control-Allow-Origin','*')
     return response
 
 @app.route('/predict_home_price',methods=['POST','GET'])
