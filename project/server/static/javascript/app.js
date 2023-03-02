@@ -67,5 +67,5 @@ function onPageLoad() {
   });
 }
 
-
-window.onload = onPageLoad;
+$(document).ready(onPageLoad)
+//window.onload = onPageLoad;
