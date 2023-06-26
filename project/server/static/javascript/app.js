@@ -44,7 +44,7 @@ function onClickedEstimatePrice() {
 
 function onPageLoad() {
   console.log( "document loaded" );
-   var url = `${window.location.protocol}//${window.location.host}/`;
+   var url = `${window.location.protocol}//${window.location.host}/get_location_names`;
   console.log(url);
   console.log(window.location.protocol,window.location.host);
   //var url = "https://bengaluru-house-price-prediction.onrender.com/get_location_names"; // Use this if you are NOT using nginx which is first 7 tutorials
